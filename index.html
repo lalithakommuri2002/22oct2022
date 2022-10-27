@@ -9,18 +9,210 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Noto+Sans+KR&family=Poppins:ital@0;1&family=Satisfy&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
-      .tool{
+		*{
+			margin: 0%;
+			border: 1px solid red;
+		}
+		.app{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+
+        }
+		
+            .reach{
+                margin-left: 4%;
+                font-size: 25px;
+                padding-bottom: 3%;
+            }
+            
+		 .bill{
+            font-size: 20px;
+            padding: 0.9%;
+        }
+		 .store{
+            font-family: 'Poppins', sans-serif;
+            padding: 7% 0% 2% 10%;
+            font-size: 30px;
+            background: aliceblue;
+        }
+        .instrument{
+            margin-left: 7%;
+            padding-top: 7%;
+            font-size: 30px;
+        }
+        .main2{
+            display: flex;
+            justify-content: space-around;
+            padding: 5% 0% 5% 8%;
+            background-color: white;
+        }
+         .wallet{
+            text-decoration: none;
+            font-size: 25px;
+            padding-bottom: 3%;
+        }
+            .app2{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            padding-bottom: 3%;
+
+        }
+        .bill2{
+            font-size: 20px;
+            padding: 3%;
+        }
+        .download2{
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            width: 40%;
+            padding: 1%;
+            text-align: center;
+            border-radius: 40px;
+        }
+        .sec3{
+          background-color: skyblue;
+          color: white;
+         padding: 3%;
+        }
+        .sec4{
+          background-color: blue;
+          color: white;
+         padding: 3%;
+        }
+        .head2{
+        	display: flex;
+        	justify-content: space-between;
+        }
+        .sec4{
+            background-color: blue;
+            color: white;
+            padding: 4%;
+        }
+          .book{
+                margin-left: 5%;
+                font-size: 25px;
+                padding-top: 4%;
+            }
+        .head2 p{
+            color: white;
+
+        }
+        .head2 a{
+        	width: 20%;
+        }
+        .main3{
+            display: flex;
+            justify-content: space-around;
+            padding: 5% 0% 5% 8%;
+            background-color: aliceblue;
+        }
+         .make{
+        background-color: white;
+        display: inline-flex;
+      }
+        .upi{
+            text-decoration: none;
+            font-size: 25px;
+            padding-bottom: 3%;
+        }
+         
+        .any{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+           }
+           .bill3{
+            font-size: 20px;
+            padding: 3%;
+        }
+        .download3{
+            background-color: black;
+            color: white;
+            font-size: 17px;
+            width: 40%;
+            padding: 1%;
+            text-align: center;
+            border-radius: 25px;
+        }
+        .main4{
+            display: flex;
+            justify-content: space-around;
+            padding: 5% 0% 5% 8%;
+            background-color: aliceblue;
+        }
+        .itwo{
+        display: inline-flex;
+        background-color: white;
+      }
+        .want{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+           }
+           .learn{
+            margin: 6% 6% 0% 12%;
+            background-color: blue;
+            color: white;
+            padding: 4% 4%;
+            text-align: center;
+            width: 20%;
+            border-radius: 30px;
+            font-size: 20px;
+           }
+           .bill4{
+            font-size: 20px;
+            padding: 3%;
+        }
+        .main5{
+            display: flex;
+            justify-content: space-around;
+            padding: 5% 0% 5% 8%;
+            background-color: aliceblue;
+        }
+        .cash{
+        background-color: white;
+      }
+	.tool{
       	    font-size: 50px;
             font-weight: bold;
             font-family: 'Poppins', sans-serif;
             margin: 5% 5% 3% 10%;
       }
-      .your{
-      	margin: 0% 5% 5% 5%;
+      .manage{
+      	display: flex;
+      	margin: 5% 5% 3% 10% ;
+      	padding-bottom: 10%;
       }
-      .help{
-      	margin: 0% 5% 5% 5%;
+      .manage p{
+      	font-size: 25px;
+      }
+      .manage h1{
+      	font-size: 30px;
+      	font-weight: bold;
+      }
+      .card{
+      	background-color: white;
+      }
+      .zero{
+      	display: flex;
+      	padding-bottom: 5%;
+      }
+      .wealth{
+      	margin-left: 10%;
+      	font-size: 20px;
+      }
+      .fee{
+      	justify-content: space-evenly;
+      	padding-right: 3%;
+      }
+      @media(max-width: 1366px){
+      	.navbar a{
+      		font-size: 16px;
       	}
+      }
 	</style>
 	<script src="https://kit.fontawesome.com/ea6d4fec5e.js"crossorigin="anonymous"></script>
 </head>
@@ -39,7 +231,7 @@
     	<div>
     <a href=""><img class="pay" src="images/sec2.png" width="15%"></a>
     <h1 class="app">India's Most-loved </br>Payments App</h1>
-    <p class="bill">Recharge & pay bills, book flights & movie tickets,</br> open a savings account, invest in stocks & mutual funds,and do a lot more.</p>
+    <p class="bill">Recharge & pay bills, book flights & movie tickets,</br> open a savings account, invest in stocks & mutual <br/>funds,and do a lot more.</p>
     <p class="download">Download Paytm App <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-google-play"></i></p>
 </div>
     	<img class="img1" src="images/sec3.png" alt="sec3" width="40%">
@@ -53,22 +245,23 @@
 	<a href=""><img src="images/img4.png" width="45%"></br><p>Recharge</br>DTH</br>Connection</br></p></a>
 	<a href=""><img src="images/img5.png" width="45%"></br><p>BookGas</br>Cylinder</br></p></a>
 	<a href=""><img src="images/img6.png" width="45%"></br><p>Pay</br>Credit</br>Card Bill</br></p></a>
-	<a href=""><img src="images/img7.png" width="45%"></br><p>All</br>Payment</br>Services</br></p></a>
+	<a href=""><img src="images/img7.png" width="33%"></br><p>All</br>Payment</br>Services</br></p></a>
     </div>
 	</section>
 	<section class="sec4">
-		<h1 class="book">Book & Buy on Paytm.</h1>
-		<div class="head3">
-			<a href=""><img src="images/img8.png" width="37%"></br><p>Movie</br>Tickets</br></p></a>
-			<a href=""><img src="images/img9.png"width="37%"></br><p>Flight</br>Tickets</br></p></a>
-			<a href=""><img src="images/img10.png"width="37%"></br><p>Bus</br>Tickets</br></p></a>
-			<a href=""><img src="images/img11.png"width="37%"></br><p>Train</br>Tickets</br></p></a>
-			<a href=""><img src="images/img12.png"width="37%"></br><p>Buy</br>Insurance</br></p></a>
-			<a href=""><img src="images/img13.png"width="37%"></br><p>International</br>Flights</br></p></a>
-			<a href=""><img src="images/img14.png"width="37%"></br><p>Invest</br>in Stocks </br></p></a>
+		<h1 class="reach">Book & Buy on Paytm.</h1>
+		<div class="head2">
+			<a href=""><img src="images/img8.png" width="35%"></br><p>Movie</br>Tickets</br></p></a>
+			<a href=""><img src="images/img9.png"width="35%"></br><p>Flight</br>Tickets</br></p></a>
+			<a href=""><img src="images/img10.png"width="35%"></br><p>Bus</br>Tickets</br></p></a>
+			<a href=""><img src="images/img11.png"width="35%"></br><p>Train</br>Tickets</br></p></a>
+			<a href=""><img src="images/img12.png"width="35%"></br><p>Buy</br>Insurance</br></p></a>
+			<a href=""><img src="images/img13.png"width="35%"></br><p>International</br>Flights</br></p></a>
+			<a href=""><img src="images/img14.png"width="35%"></br><p>Invest</br>in Stocks </br></p></a>
 		</div>
 	</section>
-		<h1 class="instrument">Paytm Payment Instruments Paytm</h1>
+	<section class="store">
+		<h1 class="instrument">Paytm Payment Instruments</h1>
 		<section class="main2">
 			<div>
 		<a class="wallet" href=""><img src="images/paytm.png" width="10%">Patym Wallet</a>
@@ -79,38 +272,44 @@
 		<img class="img2" src="images/Wallet balance.png" width="40%">
 	</section>
       </section>
-      <section class="main3">
-      	<div>
+      <section class="main3"> 
+      	<div class="make">
+      		<div class="send">
       		<a class="upi" href=""><img src="images/upi money.png" width="10%">UPI Money Transfer</a>
       		<h1 class="any">Pay anyone directly </br>from your bank</br> account.</h1>
       		<p class="bill3">Pay anyone, everywhere. Make contactless & secure </br>payments in-stores or online using Paytm Wallet or </br>Directly from your Bank Account. Plus, send & receive </br>money from anyone.</p>
       		<p class="download3">Download Paytm App <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-google-play"></i></p>
       	</div>
       	<img src="images/paid.png" alt="paid" width="40%">
+      </div>
+      </section>
+     
         </section>
         <section class="main4">
-        	<div>
+        	<div class="itwo">
+        	<div class="ithree">
         		<a href=""><img src="images/postpaid.png" alt="postpaid" width="30%"></a>
         		<h1 class="want">Want it? </br>No more waiting for it.</h1>
         		<p class="bill4">With Paytm Postpaid, your wishlist doesn't have to be </br>on the waitlist. Shop for the things you want today and </br> pay for them next month.</p>
         		<p class="learn">Learn more</p>
         	</div>
         	<img src="images/shopping.png" alt="shopping" width="30%">
+        </div>
         </section>
-        	<div class="main5">
-        	<div>
+        	<section class="main5">
+        	<div class="cash">
         		<a href=""><img src="images/hdfcbank.png" width="30%"></a>
         		<h1 class="limit">Unlimited Cashback </br>Every time</h1>
         		<p class="bill5">Paytm HDFC Bank Select Credit Card. A card </br> with assured Cashback and incredible offers.</p>
         		<img src="images/submit.png" width="50%">
         	</div>
-        	<div>
+        	<div class="card">
         		<a href=""><img src="images/sbibank.png" alt="sbibank" width="30%"></a>
         		<h1 class="most">India’s Most </br> Sincere Credit Card</h1>
         		<p class="bill6">Paytm SBI Card SELECT - With Intelligent </br>Features & Great Rewards that Never Expire</p>
         		<img src="images/meha.png" alt="meha" width="50%">
         	</div>
-        </div>
+        </section>
        
         <section>
         	<h1 class="bank">Financial Services by Paytm</h1>
@@ -172,29 +371,46 @@
         </section>
         <section>
 	        	<h1 class="tool">Business Tools to help <br/> your business grow</h1>
-	        	<div class="your">
-	        	<img src="images/dash.png" width="23%">
-	        	<img src="images/accept.png" width="23%">
-	        	<img src="images/single.png" width="23%">
-	            <img src="images/today.png" width="23%">
-	        	 
-	        </div>
-	        <div class="help">
+	        	<section class="manage">
+	        	 <div>
+	        	<img src="images/dash.png" width="40%">
 	        	<h1>POS Billing <br/>Software</h1>
 	        	<p>Say Hello to Smart Retail <br/>Business Management</p>
 	        	<p>Learn more</p>
-	        	<h1>Paytm for <br/>Business App</h1>
-	        	<p>Everything you need to <br/>manage your business on<br/> your phone</p>
-	        	<p>Learn more</p>
-	        	<h1>Paytm for <br/>Business App</h1>
-	        	<p>Everything you need to <br/>manage your business on<br/> your phone</p>
-	        	<p>Learn more</p>
+	        </div>
+	        <div>
+	        	<img src="images/accept.png" width="50%">
 	        	<h1>Paytm for <br/>Business App</h1>
 	        	<p>Everything you need to <br/>manage your business on<br/> your phone</p>
 	        	<p>Learn more</p>
 	        </div>
-        
+	        <div>
+	        	<img src="images/single.png" width="50%">
+	        	<h1>Advertise on <br/>Paytm</h1>
+	        	<p>Grow your business by <br/>advertising on India’s largest <br/>mobile business</p>
+	        	<p>Learn more</p>
+	        </div>
+	        <div>
+	        	<img src="images/today.png" width="50%">
+	        	<h1>Business <br/>Khata</h1>
+	        	<p>Managing Khata made <br/>easy</p>
+	        	<p>Learn more</p>
+	        </div>
+	    </section>
         </section>
-
+         <section class=" zero">
+         	<div class="wealth">
+         	<img src="images/get.png" width="20%">
+         	<p>Get started on wealth <br/>creation journey with Zero <br/>brokerage fee & no hidden <br/>charges.</p>
+         	<p>Learn more</p>
+         </div>
+         <div class="fee">
+         	<img src="images/lion.png" width="15%">
+         	<img src="images/apply.png" width="15%">
+         	<img src="images/invest.png" width="15%">
+         	<img src="images/buy.png" width="15%">
+         	<img src="images/funds.png" width="15%">
+         </div>
+         </section>
 </body>
 </html>

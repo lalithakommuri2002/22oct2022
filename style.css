@@ -37,21 +37,14 @@
             justify-content: space-around;
             padding: 5% 0% 5% 8%;
         }
-        .app{
-            font-size: 50px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-
-        }
+        
         .pay{
             margin-right: 7%;
             padding-bottom: 7%;
         }
         
-        .bill{
-            font-size: 20px;
-            padding: 0.9%;
-        }
+       
+
         .download{
             background-color: black;
             color: white;
@@ -65,142 +58,9 @@
            background-color: white;
            color: black;
         }
-        .sec3 a{
-            justify-content: space-evenly;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-            display: inline-table;
-            margin-left: 5%;
-            }
-            .reach{
-                margin-left: 4%;
-                font-size: 25px;
-                padding-top: 4%;
-            }
-            .sec4 a{
-            justify-content: space-evenly;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-            display: inline-table;
-            text-align: right;
-            }
-            .book{
-                margin-left: 5%;
-                font-size: 25px;
-                padding-top: 4%;
-            }
-            .app2{
-            font-size: 40px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-            padding-bottom: 3%;
-
-        }
-        .bill2{
-            font-size: 20px;
-            padding: 3%;
-        }
-        .download2{
-            background-color: black;
-            color: white;
-            font-size: 15px;
-            width: 40%;
-            padding: 1%;
-            text-align: center;
-            border-radius: 40px;
-        }
-        .main2{
-            display: flex;
-            justify-content: space-around;
-            padding: 5% 0% 5% 8%;
-            background-color: white;
-        }
-        .instrument{
-            margin-left: 7%;
-            padding-top: 7%;
-            font-size: 30px;
-        }
-        .wallet{
-            text-decoration: none;
-            font-size: 25px;
-            padding-bottom: 3%;
-        }
-        .sec3{
-          background-color: skyblue;
-          color: white;
-         padding-bottom: 3%;
-        }
-        .sec4{
-            background-color: blue;
-            color: white;
-            padding: 4%;
-        }
-        .head2 p{
-            color: white;
-        }
-        .head3 p{
-            color: white;
-        }
-        .main3{
-            display: flex;
-            justify-content: space-around;
-            padding: 5% 0% 5% 8%;
-        }
-        .upi{
-            text-decoration: none;
-            font-size: 25px;
-            padding-bottom: 3%;
-        }
-        .any{
-            font-size: 50px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-           }
-           .bill3{
-            font-size: 20px;
-            padding: 3%;
-        }
-        .download3{
-            background-color: black;
-            color: white;
-            font-size: 17px;
-            width: 40%;
-            padding: 1%;
-            text-align: center;
-            border-radius: 25px;
-        }
-        .main4{
-            display: flex;
-            justify-content: space-around;
-            padding: 5% 0% 5% 8%;
-        }
-        .want{
-            font-size: 50px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-           }
-           .learn{
-            margin: 6% 6% 0% 12%;
-            background-color: blue;
-            color: white;
-            padding: 4% 4%;
-            text-align: center;
-            width: 20%;
-            border-radius: 30px;
-            font-size: 20px;
-           }
-           .bill4{
-            font-size: 20px;
-            padding: 3%;
-        }
-        .main5{
-            display: flex;
-            justify-content: space-around;
-            padding: 5% 0% 5% 8%;
-            margin-left: 5%;
-        }
+        
+          
+           
         .limit{
             font-size: 50px;
             font-weight: bold;
